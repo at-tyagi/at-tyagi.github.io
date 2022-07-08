@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #42b9f4;
+  font-family: Arial;
+  color:black;
+}
+
+
+
+.menu {
+  float: left;
+	width: 10%;
+	text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.header img {
+  float: left;
+}
+
+
+
+
+.main {
+	float: left;
+	width: 60%;
+	padding:0 20px;
+ 	margin-top: 7px;
+	margin-left: 5%;
+}
+
+.right {
+	background-color: #d5ffa5;
+	float: left;
+	width: 15%;
+	padding: 15px;
+	margin-top: 7px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	box-shadow: 2px 2px 4px black;
+}
+
+
+
+.main img {
+	display: block;
+	box-shadow: 2px 2px 4px black;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+  }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+
+.menu .button {
+	background-color: #a0b9e2; /* Green */
+	border: 1px solid rgb(0, 43, 128);
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 200px;
+	display: block;
+  }
+  
+  .btn-group .button:not(:last-child) {
+	border-bottom: none; /* Prevent double borders */
+  }
+  
+  .btn-group .button:hover {
+	background-color: #3e8e41;
+  }
+.button:hover {background-color: powderblue;}
+
+
+.name
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
