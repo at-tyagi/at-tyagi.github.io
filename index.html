@@ -1,656 +1,408 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/aos.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/custom.css" rel="stylesheet">
-    <link href="styles/timeline.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet'>
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed for at-tyagi.github.io/spart/" href="feed.xml" />
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Ashutosh Tyagi | Personal Website</title>
-<meta name="generator" content="Jekyll v3.9.2" />
-<meta property="og:title" content="Ashutosh Tyagi" />
-<meta name="author" content="Ashutosh Tyagi" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Ashutosh Tyagi.  I am a tech enthusiast interested in  Machine Learning,coding and cyber security. I am an avid learner who is enthusiastic about learning something new each and every day. On the whole, I love to code and am an enthusiastic coder." />
-<meta property="og:description" content="Ashutosh Tyagi.  I am a tech enthusiast interested in  Machine Learning,coding and cyber security. I am an avid learner who is enthusiastic about learning something new each and every day. On the whole, I love to code and am an enthusiastic coder." />
-<link rel="canonical" href="index.html" />
-<meta property="og:url" content="index.html" />
-<meta property="og:site_name" content="Ashutosh Tyagi" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Ashutosh Tyagi" />
-<meta name="twitter:site" content="@Ayush21298" />
-<meta name="twitter:creator" content="@Ayush21298" />
-<meta property="fb:admins" content="ayush21298" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"Ashutosh Tyagi","url":"https://at-tyagi.github.io/spart/"},"description":"Ashutosh Tyagi.  I am a tech enthusiast interested in  Machine Learning,coding and cyber security. I am an avid learner who is enthusiastic about learning something new each and every day. On the whole, I love to code and am an enthusiastic coder.","headline":"Ashutosh Tyagi","name":"Ashutosh Tyagi","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://at-tyagi.github.io/spart//favicon.ico"},"name":"Ashutosh Tyagi"},"sameAs":["https://at-tyagi.github.io/spart/","https://github.com/Ayush21298","https://www.linkedin.com/in/ayush21298","https://www.facebook.com/ayush21298","https://www.instagram.com/ayush21298/","https://twitter.com/Ayush21298","https://gitlab.com/Ayush21298"],"url":"https://at-tyagi.github.io/spart//"}</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Ashutosh Tyagi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--accent:#0A84FF;--glass:rgba(255,255,255,0.12)}
+    html,body{height:100%;width:100%;overflow:hidden;font-family:'Inter',-apple-system,sans-serif;background:#000;touch-action:none;user-select:none}
+    #phone{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:#0a0a0a}
+    #screen{position:relative;width:min(390px,100vw);height:min(844px,100dvh);overflow:hidden;border-radius:min(44px,5vw);box-shadow:0 40px 120px rgba(0,0,0,0.95),inset 0 0 0 1px rgba(255,255,255,0.08)}
+    @media(max-width:420px){#screen{border-radius:0;box-shadow:none;width:100vw;height:100dvh}}
+    .status-bar{position:absolute;top:0;left:0;right:0;height:50px;display:flex;align-items:flex-end;padding:0 24px 8px;justify-content:space-between;z-index:100;color:#fff}
+    .status-time{font-size:15px;font-weight:700;letter-spacing:-0.3px}
+    .status-icons{display:flex;gap:6px;align-items:center}
+    .status-icons svg{width:16px;height:16px;fill:#fff}
+    .layer{position:absolute;inset:0;transition:opacity .5s cubic-bezier(.4,0,.2,1),transform .5s cubic-bezier(.4,0,.2,1)}
+    .layer.hidden{opacity:0;pointer-events:none}
 
-  </head>
-  <body id="top" class="fade-out">
-    <header>
-      <div class="profile-page sidebar-collapse">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
-          <div class="container">
-            <div class="navbar-translate"><a class="navbar-brand smooth-scroll" href="index.html#top" rel="tooltip">Ashutosh Tyagi</a>
-              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#about">About</a></li>
-                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li> -->
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#education">Education</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#experience">Extra Curricular</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#projects">Projects</a></li>
-                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="#travel">Travel Diaries</a></li> -->
-                <!-- <li class="nav-item"><a class="nav-link smooth-scroll" href="/posts">Posts</a></li> -->
-                <li class="nav-item"><a class="nav-link smooth-scroll" target="_blank" href="CV.pdf">Resume</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" href="index.html#contact">Contact</a></li>
-                <li class="nav-item"><a class="nav-link smooth-scroll" target="_blank" href="feed.xml"><i class="fa fa-rss"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+    /* LOCK */
+    #lock-screen{background:#000;display:flex;flex-direction:column;align-items:center}
+    .lock-bg{position:absolute;inset:0;background:url('images/A.jpg') center/cover no-repeat;filter:brightness(.55) saturate(1.1)}
+    .lock-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(0,0,0,.1) 0%,rgba(0,0,0,0) 35%,rgba(0,0,0,.45) 65%,rgba(0,0,0,.8) 100%)}
+    .lock-content{position:relative;z-index:5;display:flex;flex-direction:column;align-items:center;width:100%;padding-top:58px}
+    .lock-time{font-size:82px;font-weight:200;letter-spacing:-4px;color:#fff;line-height:1}
+    .lock-date{font-size:17px;color:rgba(255,255,255,.85);margin-top:6px;font-weight:400}
+    .lock-hint{position:absolute;bottom:28px;left:0;right:0;text-align:center;color:rgba(255,255,255,.5);font-size:12px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;z-index:5;animation:hintPulse 2.5s ease-in-out infinite}
+    @keyframes hintPulse{0%,100%{opacity:.4}50%{opacity:1}}
+    #pattern-wrap{position:absolute;bottom:60px;left:50%;transform:translateX(-50%);z-index:10}
+    #pattern-canvas{cursor:pointer;touch-action:none;display:block}
+    .pattern-msg{text-align:center;color:rgba(255,255,255,.65);font-size:13px;margin-top:10px;font-weight:500;min-height:18px;letter-spacing:.3px}
+
+    /* HOME */
+    #home-screen{background:#000}
+    .home-bg{position:absolute;inset:0;background:url('images/b.jpg') center/cover no-repeat;filter:brightness(.38) saturate(1.2)}
+    .home-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(160deg,rgba(10,10,30,.65) 0%,rgba(0,0,0,.3) 50%,rgba(0,0,0,.7) 100%)}
+    .home-greeting{position:relative;z-index:5;padding:58px 26px 0;color:#fff}
+    .home-greeting .g-small{font-size:12px;font-weight:500;color:rgba(255,255,255,.55);letter-spacing:2px;text-transform:uppercase}
+    .home-greeting .g-name{font-size:26px;font-weight:700;letter-spacing:-.5px;line-height:1.1;margin-top:2px}
+    .app-grid{position:absolute;top:126px;left:0;right:0;bottom:100px;padding:8px 14px;display:grid;grid-template-columns:repeat(4,1fr);gap:16px 8px;align-content:start;z-index:5;overflow-y:auto;-webkit-overflow-scrolling:touch}
+    .app-grid::-webkit-scrollbar{display:none}
+    .app-icon{display:flex;flex-direction:column;align-items:center;gap:5px;cursor:pointer;-webkit-tap-highlight-color:transparent;transition:transform .12s ease}
+    .app-icon:active{transform:scale(.86)}
+    .app-icon-img{width:62px;height:62px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:28px;box-shadow:0 4px 18px rgba(0,0,0,.55);position:relative;overflow:hidden;flex-shrink:0}
+    .app-icon-img::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.18) 0%,transparent 60%);border-radius:16px}
+    .app-icon-label{font-size:10px;color:rgba(255,255,255,.9);text-align:center;font-weight:500;text-shadow:0 1px 4px rgba(0,0,0,.8);max-width:64px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .app-about{background:linear-gradient(145deg,#1C1C1E,#2C2C2E)}
+    .app-projects{background:linear-gradient(145deg,#0A84FF,#0055BB)}
+    .app-security{background:linear-gradient(145deg,#30D158,#1a9438)}
+    .app-ml{background:linear-gradient(145deg,#FF9F0A,#cc7000)}
+    .app-iitb{background:linear-gradient(145deg,#FF375F,#a80020)}
+    .app-sports{background:linear-gradient(145deg,#5E5CE6,#3535b0)}
+    .app-magic{background:linear-gradient(145deg,#AC8E68,#6a4420)}
+    .app-contact{background:linear-gradient(145deg,#32ADE6,#0060a0)}
+    .app-exp{background:linear-gradient(145deg,#64D2FF,#0A84FF)}
+    .app-edu{background:linear-gradient(145deg,#FF6961,#b02020)}
+    .app-philosophy{background:linear-gradient(145deg,#BF5AF2,#8020c0)}
+    .app-puzzle{background:linear-gradient(145deg,#FFD60A,#a08000)}
+    .app-hobbies{background:linear-gradient(145deg,#BF5AF2,#FF9F0A)}
+    .app-resume{background:linear-gradient(145deg,#FF6961,#8B0000)}
+    .badge{position:absolute;top:-4px;right:-4px;background:#FF3B30;color:#fff;font-size:10px;font-weight:700;width:18px;height:18px;border-radius:9px;display:flex;align-items:center;justify-content:center;z-index:2}
+    .dock{position:absolute;bottom:12px;left:14px;right:14px;height:82px;background:rgba(255,255,255,.15);backdrop-filter:blur(30px) saturate(180%);-webkit-backdrop-filter:blur(30px) saturate(180%);border-radius:26px;border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;justify-content:space-around;padding:0 18px;z-index:10}
+
+    /* APP VIEWS */
+    .app-view{position:absolute;inset:0;z-index:50;display:flex;flex-direction:column;transition:transform .4s cubic-bezier(.4,0,.2,1),opacity .4s ease}
+    .app-view.hidden{opacity:0;pointer-events:none;transform:translateY(100%)}
+    .app-view-header{padding:52px 18px 12px;display:flex;align-items:center;gap:10px;flex-shrink:0}
+    .app-view-back{display:flex;align-items:center;gap:4px;color:var(--accent);font-size:16px;font-weight:500;cursor:pointer;background:none;border:none;padding:4px 0;font-family:inherit}
+    .app-view-back svg{width:9px;fill:var(--accent)}
+    .app-view-title{font-size:17px;font-weight:600;color:#fff;flex:1;text-align:center;margin-right:44px}
+    .app-view-body{flex:1;overflow-y:auto;padding:0 14px 30px;-webkit-overflow-scrolling:touch}
+    .app-view-body::-webkit-scrollbar{display:none}
+    .info-card{background:rgba(255,255,255,.07);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:16px;margin-bottom:10px;color:#fff}
+    .info-card h3{font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:1.2px;margin-bottom:10px}
+    .info-card p,.info-card li{font-size:14px;color:rgba(255,255,255,.78);line-height:1.65}
+    .info-card ul{padding-left:18px}
+    .info-card li{margin-bottom:4px}
+    .big-text{font-size:22px;font-weight:700;color:#fff;margin-bottom:6px}
+    .tag-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:8px}
+    .tag{padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;background:rgba(255,255,255,.09);color:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.13)}
+    .tl-item{display:flex;gap:12px;padding-bottom:18px;position:relative}
+    .tl-item::before{content:'';position:absolute;left:16px;top:30px;bottom:0;width:2px;background:rgba(255,255,255,.09)}
+    .tl-item:last-child::before{display:none}
+    .tl-dot{width:34px;height:34px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:15px}
+    .tl-content{flex:1;padding-top:2px}
+    .tl-title{font-size:14px;font-weight:600;color:#fff}
+    .tl-sub{font-size:12px;color:rgba(255,255,255,.5);margin-top:2px}
+    .tl-desc{font-size:13px;color:rgba(255,255,255,.68);margin-top:6px;line-height:1.5}
+    .contact-link{display:flex;align-items:center;gap:14px;padding:14px;background:rgba(255,255,255,.06);border-radius:14px;margin-bottom:10px;text-decoration:none;border:1px solid rgba(255,255,255,.09);transition:background .15s}
+    .contact-link:active{background:rgba(255,255,255,.14)}
+    .cl-icon{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+    .cl-text{flex:1}
+    .cl-label{font-size:13px;font-weight:600;color:#fff}
+    .cl-value{font-size:12px;color:rgba(255,255,255,.5);margin-top:1px}
+    .cl-arrow{color:rgba(255,255,255,.3);font-size:18px}
+    @keyframes unlockRing{0%{box-shadow:0 0 0 0 rgba(255,255,255,.7)}70%{box-shadow:0 0 0 18px rgba(255,255,255,0)}100%{box-shadow:0 0 0 0 rgba(255,255,255,0)}}
+  </style>
+</head>
+<body>
+<div id="phone">
+  <div id="screen">
+
+    <div class="status-bar">
+      <span class="status-time" id="status-time">9:41</span>
+      <div class="status-icons">
+        <svg viewBox="0 0 17 12"><rect x="0" y="6" width="3" height="6" rx="1"/><rect x="4.5" y="4" width="3" height="8" rx="1"/><rect x="9" y="2" width="3" height="10" rx="1"/><rect x="13.5" y="0" width="3" height="12" rx="1" opacity="0.3"/></svg>
+        <svg viewBox="0 0 16 12"><path d="M8 10.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"/><path d="M4.5 7.5A4.98 4.98 0 018 6c1.38 0 2.63.56 3.5 1.46" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/><path d="M1.5 4.5A8.97 8.97 0 018 2c2.49 0 4.74 1.01 6.37 2.64" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+        <svg viewBox="0 0 25 12"><rect x="0" y="1" width="21" height="10" rx="3" stroke="#fff" stroke-width="1" fill="none"/><rect x="1.5" y="2.5" width="16" height="7" rx="2" fill="#fff"/><rect x="21.5" y="4" width="3" height="4" rx="1.5" fill="#fff" opacity="0.4"/></svg>
       </div>
-    </header>
-    <div class="page-content">
-      <div>
-<div class="profile-page">
-  <div class="wrapper">
-    <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/A.jpg');"></div>
-      <div class="container">
-        <div class="content-center">
-          <div class="cc-profile-image"><a href="#"><img src="images/b.jpg" alt="Ashutosh Tyagi"/></a></div>
-          <div class="h2 title">Ashutosh Tyagi</div>
-          <p class="category text-white">4th year UG Student <br> @ IIT BOMBAY</p><!-- <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a> --><a class="btn btn-primary" target="_blank" href="CV.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+    </div>
+
+    <!-- LOCK SCREEN -->
+    <div class="layer" id="lock-screen">
+      <div class="lock-bg"></div>
+      <div class="lock-content">
+        <div class="lock-time" id="lock-time">9:41</div>
+        <div class="lock-date" id="lock-date">Friday, June 20</div>
+      </div>
+      <div id="pattern-wrap">
+        <canvas id="pattern-canvas" width="240" height="240"></canvas>
+        <div class="pattern-msg" id="pattern-msg">Draw any pattern to unlock</div>
+      </div>
+      <div class="lock-hint">Draw a pattern to unlock</div>
+    </div>
+
+    <!-- HOME SCREEN -->
+    <div class="layer hidden" id="home-screen">
+      <div class="home-bg"></div>
+      <div class="home-greeting">
+        <div class="g-small">Welcome back</div>
+        <div class="g-name">Ashutosh Tyagi</div>
+      </div>
+      <div class="app-grid">
+        <div class="app-icon" data-app="about"><div class="app-icon-img app-about">👤</div><span class="app-icon-label">About</span></div>
+        <div class="app-icon" data-app="projects"><div class="app-icon-img app-projects" style="position:relative">💻<span class="badge">5</span></div><span class="app-icon-label">Projects</span></div>
+        <div class="app-icon" data-app="security"><div class="app-icon-img app-security">🔐</div><span class="app-icon-label">Security</span></div>
+        <div class="app-icon" data-app="ml"><div class="app-icon-img app-ml">🤖</div><span class="app-icon-label">ML / AI</span></div>
+        <div class="app-icon" data-app="iitb"><div class="app-icon-img app-iitb">🏛️</div><span class="app-icon-label">IIT Bombay</span></div>
+        <div class="app-icon" data-app="hobbies"><div class="app-icon-img app-hobbies">🎲</div><span class="app-icon-label">Hobbies</span></div>
+        <div class="app-icon" data-app="exp"><div class="app-icon-img app-exp">💼</div><span class="app-icon-label">Experience</span></div>
+        <div class="app-icon" data-app="edu"><div class="app-icon-img app-edu">🎓</div><span class="app-icon-label">Education</span></div>
+        <div class="app-icon" data-app="contact"><div class="app-icon-img app-contact">📬</div><span class="app-icon-label">Contact</span></div>
+      </div>
+      <div class="dock">
+        <div class="app-icon" data-app="about"><div class="app-icon-img app-about" style="width:52px;height:52px;font-size:22px">👤</div><span class="app-icon-label">About</span></div>
+        <div class="app-icon" data-app="projects"><div class="app-icon-img app-projects" style="width:52px;height:52px;font-size:22px">💻</div><span class="app-icon-label">Projects</span></div>
+        <div class="app-icon" data-app="exp"><div class="app-icon-img app-exp" style="width:52px;height:52px;font-size:22px">💼</div><span class="app-icon-label">Work</span></div>
+        <div class="app-icon" data-app="contact"><div class="app-icon-img app-contact" style="width:52px;height:52px;font-size:22px">📬</div><span class="app-icon-label">Contact</span></div>
+      </div>
+    </div>
+
+    <!-- APP: ABOUT -->
+    <div class="app-view hidden" id="app-about" style="background:linear-gradient(160deg,#1C1C1E,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">About Me</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><div class="big-text">Ashutosh Tyagi 👋</div><p>Data Scientist at Coupa Software, Pune. IIT Bombay grad — Chemical Engineering & Data Science.</p></div>
+        <div class="info-card"><h3>Interests</h3><p>I'm into Cyber Security, play volleyball, and spend time learning card magic and other magic tricks. I enjoy solving brainstorming puzzles.</p></div>
+        <div class="info-card"><h3>How I operate</h3><p>I like to work with a founder's attitude in terms of effort and thinking. I put in the same energy whether I have a title or not.</p></div>
+        <div class="info-card"><h3>Philosophy</h3><p>I read different philosophers and genuinely enjoy sitting with hard questions about life and existence. I love people who think rationally and aren't afraid to question things.</p></div>
+        <div class="info-card"><h3>Quick Info</h3><p>📧 ashutosh.tyagi@iitb.ac.in <span style="font-size:11px;color:rgba(255,255,255,.4)">(yes, I still check it)</span></p><p style="margin-top:6px">📞 +91 ******</p><p style="margin-top:6px">📍 Pune, India</p><p style="margin-top:6px">🗣️ English, Hindi</p></div>
+      </div>
+    </div>
+
+    <!-- APP: PROJECTS -->
+    <div class="app-view hidden" id="app-projects" style="background:linear-gradient(160deg,#001a40,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Projects</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><h3>License Plate Recognition</h3><p>ANPR model using Vision Transformers for superior accuracy across various plate sizes and colors.</p><div class="tag-row"><span class="tag">Computer Vision</span><span class="tag">PyTorch</span></div></div>
+        <div class="info-card"><h3>Audio Instrument Separation</h3><p>Trained on MUSDB (150 songs). Separated Drums, Bass, Vocals using STFT and masking techniques.</p><div class="tag-row"><span class="tag">Deep Learning</span><span class="tag">Signal Processing</span></div></div>
+        <div class="info-card"><h3>Image Caption Generator</h3><p>CNN-RNN architecture combining VGG16 feature extraction with LSTM caption generation.</p><div class="tag-row"><span class="tag">CV + NLP</span><span class="tag">TensorFlow</span></div></div>
+        <div class="info-card"><h3>Plant Disease Identification</h3><p>Neural network app for potato disease detection. Deployed on GCP with FastAPI backend.</p><div class="tag-row"><span class="tag">GCP</span><span class="tag">FastAPI</span></div></div>
+        <div class="info-card"><h3>Encryption and Decryption</h3><p>C++ program using ETAI strategy, dictionary closure and brute-force key discovery mechanisms.</p><div class="tag-row"><span class="tag">C++</span><span class="tag">Algorithms</span></div></div>
+      </div>
+    </div>
+
+    <!-- APP: SECURITY -->
+    <div class="app-view hidden" id="app-security" style="background:linear-gradient(160deg,#001a08,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Cyber Security</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><div class="big-text">🔐</div><p>One of those areas I genuinely get pulled into. I like poking at systems, understanding how things can go wrong, and thinking about what that means.</p></div>
+        <div class="info-card"><h3>Things I've done</h3>
+          <div class="tl-item"><div class="tl-dot app-security">🏛️</div><div class="tl-content"><div class="tl-title">Penetration Testing at IIT Bombay</div><div class="tl-desc">Did quite a bit of pen testing on systems within IITB. Found and responsibly reported some significant vulnerabilities — a few were serious enough that they got proper attention.</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-security">🥛</div><div class="tl-content"><div class="tl-title">Bug Bounty — Consumer Brand</div><div class="tl-desc">Found a vulnerability in a ~₹200 Cr milk products company's platform. The flaw allowed placing orders from any user's account to any address, completely free — and also exposed a path to the admin panel. Reported it responsibly.</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-security">🐧</div><div class="tl-content"><div class="tl-title">Ethical Hacking — Kali Linux</div><div class="tl-desc">Learned and applied ethical hacking tools and techniques through hands-on practice with Kali Linux.</div></div></div>
         </div>
+        <div class="info-card"><h3>Skills</h3><div class="tag-row"><span class="tag">Penetration Testing</span><span class="tag">Ethical Hacking</span><span class="tag">Kali Linux</span><span class="tag">Bug Bounty</span><span class="tag">Network Security</span><span class="tag">Vulnerability Assessment</span></div></div>
       </div>
-      <div class="section">
-        <div class="container">
-          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/atg1062/" target="_blank" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.linkedin.com/in/at-tyagi" target="_blank" rel="tooltip" title="Follow me on LinkedIn"><i class="fa fa-linkedin"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="https://github.com/at-tyagi" target="_blank" rel="tooltip" title="Follow me on GitHub"><i class="fa fa-github"></i></a></div>
+    </div>
+
+    <!-- APP: ML -->
+    <div class="app-view hidden" id="app-ml" style="background:linear-gradient(160deg,#2a1500,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Machine Learning</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><div class="big-text">🤖</div><p>Currently building production AI agents at Coupa Software. Deep into LLM systems, RAG pipelines, and agentic workflows.</p></div>
+        <div class="info-card"><h3>LLM & Agentic AI</h3><div class="tag-row"><span class="tag">RAG</span><span class="tag">Vectorless RAG</span><span class="tag">LangChain</span><span class="tag">LangGraph</span><span class="tag">DSPy</span><span class="tag">AI Agents</span><span class="tag">MCP</span><span class="tag">LLM Evals</span><span class="tag">Prompt Engineering</span><span class="tag">Synthetic Data</span></div></div>
+        <div class="info-card"><h3>ML / Frameworks</h3><div class="tag-row"><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Hugging Face</span><span class="tag">Scikit-learn</span><span class="tag">Vision Transformers</span><span class="tag">CNN / LSTM</span><span class="tag">NumPy</span><span class="tag">Pandas</span></div></div>
+        <div class="info-card"><h3>Vector & Search</h3><div class="tag-row"><span class="tag">Vector DBs</span><span class="tag">ChromaDB</span><span class="tag">Semantic Search</span><span class="tag">Elastic Search</span><span class="tag">Embedding Models</span><span class="tag">Ollama</span></div></div>
+        <div class="info-card"><h3>MLOps & Cloud</h3><div class="tag-row"><span class="tag">Docker</span><span class="tag">MLflow</span><span class="tag">CI/CD</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">FastAPI</span><span class="tag">SQL</span></div></div>
+      </div>
+    </div>
+
+    <!-- APP: IITB -->
+    <div class="app-view hidden" id="app-iitb" style="background:linear-gradient(160deg,#3d0010,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">IIT Bombay</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><div class="big-text">🏛️ IIT Bombay</div><p>B.Tech — Chemical Engineering &amp; Data Science · 2021–2025</p></div>
+        <div class="info-card"><h3>Scholastic Achievements</h3><p style="margin-bottom:8px">🏅 AP (A+) grade in CS 101 — awarded to 3 out of 668 students</p><p style="margin-bottom:8px">🎯 99.62 %ile in JEE Mains · Top 0.20 %ile in JEE Advanced</p><p>📜 Letter of Recommendation from Prof. at CSE dept., IIT Kharagpur</p></div>
+        <div class="info-card"><h3>Research</h3>
+          <div class="tl-item"><div class="tl-dot" style="background:linear-gradient(145deg,#BF5AF2,#8020c0);font-size:16px">🧠</div><div class="tl-content"><div class="tl-title">Brain Tumour Detection</div><div class="tl-sub">IIT Bombay</div><div class="tl-desc">Built an encoder-decoder based deep learning model for MRI brain tumour segmentation. Used U-Net style architecture with skip connections for precise pixel-level detection, trained on labelled MRI scan datasets.</div></div></div>
+          <div class="tl-item"><div class="tl-dot" style="background:linear-gradient(145deg,#FF375F,#a80020);font-size:16px">🚌</div><div class="tl-content"><div class="tl-title">Optimizing MSRTC Operations</div><div class="tl-sub">Guide: Prof. Milind Sohoni (CSE Dept)</div><div class="tl-desc">Engaged with IAS officers and depot managers. Used QGIS to map Maharashtra bus route networks on OpenStreetMap.</div></div></div>
+        </div>
+        <div class="info-card"><h3>Courses</h3><div class="tag-row"><span class="tag">Data Structures & Algorithms</span><span class="tag">Deep Learning & Neural Networks</span><span class="tag">Advanced Machine Learning</span><span class="tag">NLP</span><span class="tag">RAG & Generative AI</span><span class="tag">Cybersecurity Tools</span><span class="tag">Optimization Models</span></div></div>
+      </div>
+    </div>
+
+    <!-- APP: HOBBIES -->
+    <div class="app-view hidden" id="app-hobbies" style="background:linear-gradient(160deg,#180030,#1a0a00)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Hobbies</span></div>
+      <div class="app-view-body">
+        <div class="info-card">
+          <h3>🏐 Volleyball</h3>
+          <p>Play volleyball regularly. Also part of the IIT Bombay Athletics team — competed at Inter IIT Sports Meet '22.</p>
+        </div>
+        <div class="info-card">
+          <h3>🃏 Card Magic</h3>
+          <p>Learning card magic and other magic tricks. Something about the skill and precision involved keeps me hooked.</p>
+        </div>
+        <div class="info-card">
+          <h3>🧩 Brainstorming Puzzles</h3>
+          <p>Love solving mathematical puzzles — especially ones rooted in game theory, probability, discrete math and combinatorics. The kind where brute force doesn't work and you have to actually think.</p>
+        </div>
+        <div class="info-card">
+          <h3>🧠 Philosophy</h3>
+          <p>Read different philosophers and sit with hard questions about life and existence. Love people who think rationally and aren't afraid to follow an argument wherever it leads.</p>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="section" id="about">
-  <div class="container">
-    <div class="card" data-aos="fade-up" data-aos-offset="10">
-      <div class="row">
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">About Me</div>
-        <p>Hello! I'm a <strong>student</strong> at <strong>IIT Bombay</strong>, a place where innovation meets tradition.</p>
-        <p>My passion lies in the realms of <strong>Machine Learning & Cyber Security</strong>. These fields are not just my academic interests; they are the driving forces behind my curiosity and my pursuit of knowledge.</p>
-        <p>As an avid learner, I'm always on the lookout for new challenges and opportunities to expand my horizons. Each day brings a new adventure in the world of technology, and I'm excited to explore what the future holds. <a href="CV.pdf" target="_blank" rel="noopener noreferrer">Learn More</a></p>
-
+        <!-- APP: EXPERIENCE -->
+    <div class="app-view hidden" id="app-exp" style="background:linear-gradient(160deg,#001a25,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Experience</span></div>
+      <div class="app-view-body">
+        <div class="info-card" style="border-color:rgba(100,210,255,0.3)">
+          <h3>🏢 Current — Coupa Software</h3>
+          <div style="font-size:15px;font-weight:700;color:#fff;margin-bottom:4px">Data Scientist</div>
+          <div style="font-size:12px;color:rgba(255,255,255,.45);margin-bottom:12px">July 2025 – Present · Pune, India</div>
+          <p>Working on an AI analytics agent — part of <strong style="color:#fff">Coupa Navi</strong>. Users can query business data in plain English and get dashboards, charts and insights. Involves LLM pipelines, RAG and agentic workflows. Boosted accuracy from <strong style="color:#64D2FF">62% to 87%</strong>.</p>
         </div>
-        <div class="col-lg-6 col-md-12">
-          <div class="card-body">
-            <div class="h4 mt-0 title">Basic Information</div>
-            <div class="row">
-              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
-              <div class="col-sm-8">20 yrs</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
-              <div class="col-sm-8"><a href="mailto:ashutosh.tyagi@iitb.ac.in">ashutosh.tyagi@iitb.ac.in</a><br></div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
-              <div class="col-sm-8"><a href="tel:+91-">+91 -</a></div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
-              <div class="col-sm-8">Muzaffarnagar, Uttar Pradesh, 247554</div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
-              <div class="col-sm-8">English, Hindi</div>
-            </div>
-          </div>
+        <div class="info-card">
+          <h3>Internships</h3>
+          <div class="tl-item"><div class="tl-dot app-exp">🇯🇵</div><div class="tl-content"><div class="tl-title">ML Data Analyst — DeNA</div><div class="tl-sub">May – Jul 2024 · Tokyo, Japan</div><div class="tl-desc">Bot detection algorithm. Banned 15K+ bots from Pococha (5M+ downloads). Network science to reveal latent user behavior patterns.</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-ml">🌾</div><div class="tl-content"><div class="tl-title">ML Engineer — AiProff</div><div class="tl-sub">Jan – Mar 2024</div><div class="tl-desc">Vision Transformer model for animal intrusion detection in agriculture. The founder personally gave a Letter of Recommendation, citing out-of-the-box thinking and approach to the problem.</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-iitb">🚌</div><div class="tl-content"><div class="tl-title">Research — Optimizing MSRTC</div><div class="tl-sub">May – Dec 2023 · IIT Bombay</div><div class="tl-desc">Prof. Milind Sohoni (CSE). Engaged with IAS officers and depot managers. Built QGIS network of Maharashtra bus routes on OpenStreetMap.</div></div></div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="section" id="skill">
-  <div class="container">
-    <div class="h4 text-center mb-4 title">Professional Skills</div> 
-    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Cyber Security</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div><span class="progress-value">95%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Machine Learning</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Competitive Coding</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Hardware Design</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Machine Learning</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Product Development</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Business Management</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Economic and Financial Skills</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Travelling</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div><span class="progress-value">85%</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="progress-container progress-primary"><span class="progress-badge">Philosophy</span>
-              <div class="progress">
-                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
-              </div>
-            </div>
-          </div>
+
+    <!-- APP: EDUCATION -->
+    <div class="app-view hidden" id="app-edu" style="background:linear-gradient(160deg,#2a0000,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Education</span></div>
+      <div class="app-view-body">
+        <div class="info-card">
+          <div class="tl-item"><div class="tl-dot" style="background:rgba(255,255,255,0.06);border:2px dashed rgba(255,255,255,0.2);font-size:18px">🤷</div><div class="tl-content"><div class="tl-title">After IIT Bombay</div><div class="tl-sub">TBD · Possibly this decade</div><div class="tl-desc">Still thinking. Open to interesting problems. If you have one, you know where to find me.</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-iitb">🏛️</div><div class="tl-content"><div class="tl-title">B.Tech — Chemical Engineering & Data Science</div><div class="tl-sub">IIT Bombay · 2021–2025</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-edu">📘</div><div class="tl-content"><div class="tl-title">12th — Science and Mathematics</div><div class="tl-sub">The Doon Valley Public School · CBSE 94.80%</div></div></div>
+          <div class="tl-item"><div class="tl-dot app-edu">📗</div><div class="tl-content"><div class="tl-title">10th — Science</div><div class="tl-sub">The Doon Valley Public School · CBSE 93.60%</div></div></div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<div class="section" id="education">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Education</div>
 
-    <center>
-      <div class="hr"></div>
-    </center>
+    <!-- APP: PUZZLES -->
+    <div class="app-view hidden" id="app-puzzle" style="background:linear-gradient(160deg,#1a1a00,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Puzzles</span></div>
+      <div class="app-view-body">
+        <div class="info-card"><div class="big-text">🧩 Brainstorming</div><p>I enjoy solving brainstorming puzzles — the kind that require thinking from first principles.</p></div>
+        <div class="info-card"><h3>Why puzzles?</h3><p>They force clarity of thought. You can't hand-wave through them. They're also a great way to see how someone reasons under constraints — the same skill that makes a good engineer or security analyst.</p></div>
+      </div>
+    </div>
 
-    <ul class="timeline">
-
-      <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
-            <span class="flag">Bachelors's Degree</span>
-            <span class="time-wrapper"><span class="time">2021 - 2025</span></span>
-          </div>
-          <div class="desc">B. Tech, Chemical Engineering<br>Indian Institute of Technology Bombay</div>
-        </div>
-      </li>
-      
-      <li>
-        <div class="direction-l">
-          <div class="flag-wrapper">
-            <span class="flag">12th</span>
-            <span class="time-wrapper">
-          </div>
-          <div class="desc">Science and Mathematics, CBSE (94.80%)<br>The Doon Valley Public School, Deoband</div>
-        </div>
-      </li>
-
-      <li>
-        <div class="direction-r">
-          <div class="flag-wrapper">
-            <span class="flag">10th</span>
-            <span class="time-wrapper"></span>
-          </div>
-          <div class="desc">Science, CBSE (93.60%)<br>The Doon Valley Public School, Deoband</div>
-        </div>
-      </li>
- 
-    </ul>
+    <!-- APP: CONTACT -->
+    <div class="app-view hidden" id="app-contact" style="background:linear-gradient(160deg,#001830,#0A0A0F)">
+      <div class="app-view-header"><button class="app-view-back" onclick="closeApp()"><svg viewBox="0 0 10 16"><path d="M8 1L2 8l6 7" stroke="#0A84FF" stroke-width="2" fill="none" stroke-linecap="round"/></svg> Home</button><span class="app-view-title">Contact</span></div>
+      <div class="app-view-body">
+        <div class="info-card" style="text-align:center;padding:22px 16px"><div style="font-size:56px;margin-bottom:10px">👤</div><div style="font-size:20px;font-weight:700;color:#fff">Ashutosh Tyagi</div><div style="font-size:13px;color:rgba(255,255,255,.5);margin-top:4px">Data Scientist · Coupa Software · Pune</div></div>
+        <a class="contact-link" href="mailto:ashutosh.tyagi@iitb.ac.in"><div class="cl-icon" style="background:linear-gradient(145deg,#FF9F0A,#E07000)">📧</div><div class="cl-text"><div class="cl-label">Email</div><div class="cl-value">ashutosh.tyagi@iitb.ac.in <span style="font-size:11px;opacity:0.55">(still check it)</span></div></div><span class="cl-arrow">›</span></a>
+        <a class="contact-link" href="https://www.linkedin.com/in/at-tyagi" target="_blank"><div class="cl-icon" style="background:linear-gradient(145deg,#0A66C2,#004182)">💼</div><div class="cl-text"><div class="cl-label">LinkedIn</div><div class="cl-value">at-tyagi</div></div><span class="cl-arrow">›</span></a>
+        <a class="contact-link" href="https://github.com/at-tyagi" target="_blank"><div class="cl-icon" style="background:linear-gradient(145deg,#333,#111)">🐙</div><div class="cl-text"><div class="cl-label">GitHub</div><div class="cl-value">at-tyagi</div></div><span class="cl-arrow">›</span></a>
+      </div>
+    </div>
 
 
-  
-  </div>
-</div>
-<div class="section" id="experience">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">Extra Curricular</div>
-
-    <center>
-      <div class="hr"></div>
-    </center>
-
-    
-      <ul class="timeline">
-        
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="flag">Athletics</span>
-            </div>
-            <div class="desc">Part of Athletics team IIT Bombay</div>
-          </div>
-        </li>
-
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="flag">Cyber Security</span>
-            </div>
-            <div class="desc">Passionate about cybersecurity, where every challenge is a step towards safeguarding the digital world</div>
-          </div>
-        </li>
-         <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="flag">Inter IIT player</span>
-            </div>
-            <div class="desc">Selected for INTER IIT SPORTS MEET '23 in the institute Athletics team of IIT Bombay</div>
-          </div>
-        </li>
-        <li>
-          <div class="direction-r">
-            <div class="flag-wrapper">
-              <span class="flag">Tech Competition Participation</span>
-            </div>
-            <div class="desc">Participated in Wifi Controlled Racing Bot (XLR8) & Radio Control Plane competitions organized in IIT Bombay</div>
-          </div>
-        </li>
-        <li>
-          <div class="direction-l">
-            <div class="flag-wrapper">
-              <span class="flag">Coordinator — Media and Public Relation, Abhyuday IIT Bombay</span>
-            </div>
-            <div class="desc">Moderating & assisting the publicity plans of various initiatives being organised for diverse target audience</div>
-          </div>
-        </li>
-
-
-        
-        
-      </ul>
-      
 
   </div>
 </div>
 
- <div class="section" id="projects">
-  <div class="container cc-education">
-    <div class="h4 text-center mb-4 title">PROFESSIONAL EXPERIENCE</div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>June 2024</p>
-            <div class="h5">Intern</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">ML Data Analyst</div>
-            <p class="category"> DeNA, <em>Tokyo - Japan</em> </p>
-            <p>
-              <ul>
-                <li>Developed a bot-detection algorithm that effectively capture existing & newly created bot accounts on Pococha app
-                <li>Banned 15,000+ bots from Pococha Live app with 50L+ downloads in India, enhancing revenue potential for the platform
-                <li>Leveraged network science tools to decode user behavior, revealing latent connections & insights from app usage patterns
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>Dec 2023</p>
-            <div class="h5">Intern</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Machine Learning Engineer</div>
-            <p class="category"> AiProff</p>
-            <p>
-              <ul>
-                <li>Received a Letter of Recommendation from the CEO of the company
-                <li>Developed a computer vision-based Machine Learning model to prevent animal intrusion in the agricultural fields
-                <li>Applied advanced computer vision techniques of Vision Transformers to address real-world challenges in agriculture
-                <li>Improved model accuracy through successful implementation of data collection & data augmentation techniques  
-              </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-education-header">
-            <p>May-Dec 2023</p>
-            <div class="h5">Research Project</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Optimizing MSRTC operations</div>
-            <p class="category">Guide: Prof. Milind Sohoni, Department of Computer Science & Engineering, IIT Bombay</p>
-            <p>
-              <ul>
-                <li>Contributing to the development of a sustainable transportation system to serve larger population in Maharashtra
-                <li>Conducted a field visit and engaged with depot manager to closely observe operations and identify the challenges               
-                <li>Applied advanced computer vision techniques of Vision Transformers to address real-world challenges in agriculture
-                <li>Utilized QGIS to create an integrated MSRTC bus routes network layer with OpenStreetMap visualization
-                </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="section" id="projects">
-      <div class="container cc-education">
-        <div class="h4 text-center mb-4 title">Projects</div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>June 2022</p>
-                <div class="h5">CS101 Course Project</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Encryption & Decryption</div>
-                <p class="category">Guide: Prof. S Akshay, TA Karan Agarwalla</p>
-                <p>
-                  <ul>
-                    <li>Develop a program to decode the encoded text using the ETAI strategy, dictionary closure & secret word enumeration
-                    <li>Implemented dictionary attack & brute force mechanisms that finds key in the event of failure with primary techniques
-                    <li>Utilized OOPs, STL, and File handling as fundamental concepts in C++ to develop robust and efficient algorithm              </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>Apr 2023</p>
-                <div class="h5">CS419 Course Project</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Audio Instrument Separation</div>
-                <p class="category">Deep Learning</p>
-                <p>
-                  <ul>
-                    <li>Trained the model on a vast publicly available dataset of 150 songs (100 Training set , 50 Test set) named MUSDB
-                      <li>Employed diverse range of Spectrogram & Masking techniques for high-quality isolation of Drums, Bass, Vocals sounds
-                        <li>Applied advanced data preprocessing techniques using Fourier Transform (STFT) to enhance the model’s accuracy
+<script>
+// CLOCK
+function updateClock(){
+  const n=new Date(),h=n.getHours().toString().padStart(2,'0'),m=n.getMinutes().toString().padStart(2,'0'),t=h+':'+m;
+  document.getElementById('status-time').textContent=t;
+  document.getElementById('lock-time').textContent=t;
+  const days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months=['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('lock-date').textContent=days[n.getDay()]+', '+months[n.getMonth()]+' '+n.getDate();
+}
+updateClock(); setInterval(updateClock,1000);
 
-                    </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>Dec 2023</p>
-                <div class="h5">Self Project</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">License Plate Recognition</div>
-                <p class="category">Computer Vision</p>
-                <p>
-                  <ul>
-                    <li>Developed an ANPR model using computer vision, integrating Vision Transformers for superior accuracy & performance
-                    <li>Improved ANPR accuracy via advanced image processing & object detection across various colors & plate sizes
-                    </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>Dec 2023</p>
-                <div class="h5">Self Project</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Image Caption Generator</div>
-                <p class="category">Computer Vision & NLP</p>
-                <p>
-                  <ul>
-                    <li>Leveraged the VGG16 model to fine-tune ICG, achieving high accuracy in generating contextually relevant captions
-                    <li>Implemented a CNN-RNN architecture, combining CNN for feature extraction & LSTM for generating image captions
-                    </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>Mar 2023</p>
-                <div class="h5">Self Project</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Plant Disease Identification</div>
-                <p class="category">Computer Vision</p>
-                <p>
-                  <ul>
-                    <li>Developed an innovative app utilizing a neural network to accurately detect potato plant disease using leaf image
-                    <li>Integrated the model with a frontend webpage & utilizing FastAPI as the backend framework to fetch the model
-                    <li>Successfully deployed the model on the Google Cloud Platform (GCP), enabling seamless accessibility to users
-                    </p>
-              </div>
-            </div>
-          </div>
-        </div>
+// PATTERN LOCK
+const canvas=document.getElementById('pattern-canvas');
+const ctx=canvas.getContext('2d');
+const SIZE=3,DOT_R=15,GRID_PAD=38,CELL=(canvas.width-GRID_PAD*2)/(SIZE-1);
+const dots=[];
+for(let r=0;r<SIZE;r++) for(let c=0;c<SIZE;c++) dots.push({x:GRID_PAD+c*CELL,y:GRID_PAD+r*CELL,idx:r*SIZE+c});
+let selected=[],drawing=false,mousePos={x:0,y:0},savedPattern=null,verifyMode=false;
 
-    <center><br>
-      <h3><a href="#">More to add Soon !!!</a></h3>
-    </center>
+function drawPattern(cur){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  if(selected.length>0){
+    ctx.lineWidth=5; ctx.strokeStyle='rgba(255,255,255,0.5)'; ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.beginPath(); ctx.moveTo(dots[selected[0]].x,dots[selected[0]].y);
+    for(let i=1;i<selected.length;i++) ctx.lineTo(dots[selected[i]].x,dots[selected[i]].y);
+    if(drawing&&cur) ctx.lineTo(cur.x,cur.y);
+    ctx.stroke();
+  }
+  dots.forEach(d=>{
+    const active=selected.includes(d.idx);
+    ctx.beginPath(); ctx.arc(d.x,d.y,DOT_R,0,Math.PI*2);
+    ctx.fillStyle=active?'rgba(255,255,255,0.15)':'rgba(255,255,255,0.06)'; ctx.fill();
+    ctx.strokeStyle=active?'rgba(255,255,255,0.9)':'rgba(255,255,255,0.3)'; ctx.lineWidth=1.5; ctx.stroke();
+    ctx.beginPath(); ctx.arc(d.x,d.y,active?6:4,0,Math.PI*2);
+    ctx.fillStyle=active?'#fff':'rgba(255,255,255,0.45)'; ctx.fill();
+  });
+}
+drawPattern(null);
 
-  </div>
-</div>
+function getPos(e){const r=canvas.getBoundingClientRect(),s=e.touches?e.touches[0]:e;return{x:s.clientX-r.left,y:s.clientY-r.top}}
+function nearDot(p){for(const d of dots) if(Math.hypot(p.x-d.x,p.y-d.y)<DOT_R+10) return d;return null}
 
+function startDraw(e){e.preventDefault();const p=getPos(e),d=nearDot(p);if(!d)return;drawing=true;selected=[d.idx];mousePos=p;drawPattern(mousePos)}
+function moveDraw(e){e.preventDefault();if(!drawing)return;mousePos=getPos(e);const d=nearDot(mousePos);if(d&&!selected.includes(d.idx))selected.push(d.idx);drawPattern(mousePos)}
+function endDraw(e){
+  e.preventDefault(); if(!drawing)return; drawing=false;
+  if(selected.length<2){selected=[];drawPattern(null);setMsg('Connect at least 2 dots','#FF6B6B');return}
+  const funnyMsgs=[
+    'You guessed it! Very smart 🧠',
+    'Wow, a hacker. Impressive 😏',
+    'Pattern accepted. Genius at work 🎩',
+    'Correct! Obviously 🙄 Welcome in.',
+    'Unlocked by a big brain 🔓',
+    'That was easy… for you 😎',
+    'Access granted. Don\'t touch anything. 🚨',
+    'You\'re in. Try not to break anything 🛠️',
+    'Wow first try? Overachiever spotted 🎯',
+    'Security question: passed. Actual security: debatable 😅'
+  ];
+  const msg=funnyMsgs[Math.floor(Math.random()*funnyMsgs.length)];
+  setMsg(msg,'#30D158');
+  setTimeout(goHome,700);
+}
+function setMsg(t,c){const e=document.getElementById('pattern-msg');e.textContent=t;e.style.color=c||'rgba(255,255,255,0.65)'}
+function shakeCanvas(){const w=document.getElementById('pattern-wrap');[8,-8,6,-6,3,0].forEach((v,i)=>setTimeout(()=>w.style.transform=`translateX(calc(-50% + ${v}px))`,i*55))}
 
+canvas.addEventListener('mousedown',startDraw);
+canvas.addEventListener('mousemove',moveDraw);
+canvas.addEventListener('mouseup',endDraw);
+canvas.addEventListener('touchstart',startDraw,{passive:false});
+canvas.addEventListener('touchmove',moveDraw,{passive:false});
+canvas.addEventListener('touchend',endDraw,{passive:false});
 
+// TRANSITIONS
+function goHome(){
+  const lock=document.getElementById('lock-screen'),home=document.getElementById('home-screen');
+  lock.style.transition='transform 0.5s cubic-bezier(0.4,0,0.2,1),opacity 0.5s ease';
+  lock.style.transform='scale(0.95)'; lock.style.opacity='0';
+  setTimeout(()=>lock.classList.add('hidden'),480);
+  home.classList.remove('hidden');
+  home.style.opacity='0'; home.style.transform='scale(1.04)';
+  requestAnimationFrame(()=>{
+    home.style.transition='opacity 0.45s ease,transform 0.45s cubic-bezier(0.34,1.3,0.64,1)';
+    home.style.opacity='1'; home.style.transform='scale(1)';
+  });
+}
 
-<div class="section" id="contact">
-  <div class="cc-contact-information">
+let currentApp=null;
+function openApp(id){
+  const v=document.getElementById('app-'+id); if(!v)return;
+  currentApp=id; v.classList.remove('hidden');
+  v.style.transform='translateY(100%)'; v.style.opacity='1';
+  requestAnimationFrame(()=>{v.style.transition='transform 0.38s cubic-bezier(0.34,1.15,0.64,1)';v.style.transform='translateY(0)'});
+}
+function closeApp(){
+  if(!currentApp)return;
+  const v=document.getElementById('app-'+currentApp);
+  v.style.transition='transform 0.32s cubic-bezier(0.4,0,0.2,1)';
+  v.style.transform='translateY(100%)';
+  setTimeout(()=>{v.classList.add('hidden');currentApp=null},320);
+}
 
-
-    <div class="container">
-
-      <div class="cc-contact">
-        <div class="row">
-          <div class="col-md-9">
-            <div class="card mb-0" data-aos="zoom-in">
-              <div class="h4 text-center title">Contact Me</div>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="card-body">
-                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          
-                        </div>
-                      </div>
-                      <div class="row mb-3">
-                        <div class="col">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" placeholder="Have a nice day" required="required"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <p class="mb-0"><strong>Address </strong></p>
-                    <p class="pb-2">Hostel 6, IIT Bombay</p>
-                    <p class="mb-0"><strong>Phone</strong></p>
-                    <p class="pb-2"><a href="tel:+91-">+91 -</a></p>
-                    <p class="mb-0"><strong>Email</strong></p>
-                    <p><a href="mailto:ashutosh.tyagi@iitb.ac.in">ashutosh.tyagi@iitb.ac.in</a><br></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-  </div>
-</div></div>
-    </div>
-    <footer class="footer">
-      <div class="container text-center">
-			<a class="cc-facebook btn btn-link" href="https://www.facebook.com/atg1062/" target="_blank">
-			<i class="fa fa-facebook fa-2x " aria-hidden="true"></i>
-			</a>
-			<a class="cc-linkedin btn btn-link " href="https://www.linkedin.com/in/at-tyagi" target="_blank">
-			<i class="fa fa-linkedin fa-2x " aria-hidden="true"></i>
-			</a>
-			<a class="cc-github btn btn-link" href="https://github.com/at-tyagi" target="_blank">
-			<i class="fa fa-github fa-2x" aria-hidden="true"></i>
-			</a>
-			
-			</div>
-      <div class="h4 title text-center">Ashutosh Tyagi</div>
-      <div class="text-center text-muted">
-        <p> Have a nice day</p>
-      </div>
-    </footer>
-    <script src="js/core/jquery.3.2.1.min.js"></script>
-    <script src="js/core/popper.min.js"></script>
-    <script src="js/core/bootstrap.min.js"></script>
-    <script src="js/now-ui-kit9f1e.js?v=1.1.0"></script>
-    <script src="js/aos.js"></script>
-    <script src="scripts/main.js"></script>
-    <script src="scripts/timeline.js"></script>
-  </body>
-
+document.querySelectorAll('.app-icon[data-app]').forEach(el=>{
+  el.addEventListener('click',()=>openApp(el.dataset.app));
+  el.addEventListener('touchend',e=>{e.preventDefault();openApp(el.dataset.app)});
+});
+</script>
+</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--error
-exception
-illegal
-invalid
-fail
-stack
-access
-directory
-file
-not found
-unknown
-uid=
-c:\
-varchar
-ODBC
-SQL
-quotation mark
-syntax
-ORA- >

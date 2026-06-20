@@ -3,10 +3,31 @@
 
 $(document).ready(function() {
   $('body').removeClass('fade-out');
-  AOS.init( {
-    // uncomment below for on-scroll animations to played only once
-    // once: true  
-  }); // initialize animate on scroll library
+
+  AOS.init({
+    duration: 600,
+    once: true,
+    offset: 60
+  });
+
+  // Typed.js — cycling role titles
+  if (typeof Typed !== 'undefined' && document.getElementById('typed-text')) {
+    new Typed('#typed-text', {
+      strings: [
+        'Machine Learning Engineer',
+        'Cyber Security Enthusiast',
+        'Competitive Programmer',
+        'IIT Bombay — ChemE',
+        'Open Source Builder'
+      ],
+      typeSpeed: 55,
+      backSpeed: 30,
+      backDelay: 2200,
+      loop: true,
+      showCursor: true,
+      cursorChar: '_'
+    });
+  }
 });
 
 // Smooth scroll for links with hashes
